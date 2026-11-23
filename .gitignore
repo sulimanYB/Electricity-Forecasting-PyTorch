@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Conda and virtual environments
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VS Code local settings
+.vscode/
+
+# Raw and generated datasets
+data/
+
+# Trained model checkpoints
+/models/
+*.pt
+*.pth
+
+# Keep experiment results and figures
+!results/
